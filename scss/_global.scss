@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html,
+body{
+    height: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  overflow-x: hidden;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+button,
+input{
+    outline: none;
+    cursor: pointer;
+}
+
+a,
+button{
+    p{
+        transform: skewX(45deg);
+    }
+}
